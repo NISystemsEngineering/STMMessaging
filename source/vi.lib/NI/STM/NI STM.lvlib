@@ -46,6 +46,13 @@
 	</Item>
 	<Item Name="Connection Manager" Type="Folder">
 		<Item Name="TCP" Type="Folder">
+			<Item Name="Advanced" Type="Folder">
+				<Item Name="TCP Check Connection (By Reference).vi" Type="VI" URL="../Connection Manager/TCP/Advanced/TCP Check Connection (By Reference).vi"/>
+				<Item Name="TCP Connection Manager (By Reference).vi" Type="VI" URL="../Connection Manager/TCP/Advanced/TCP Connection Manager (By Reference).vi"/>
+				<Item Name="TCP Connection Manager Reference.ctl" Type="VI" URL="../Connection Manager/TCP/Advanced/TCP Connection Manager Reference.ctl"/>
+				<Item Name="TCP Connection Manager State Variables.ctl" Type="VI" URL="../Connection Manager/TCP/Advanced/TCP Connection Manager State Variables.ctl"/>
+				<Item Name="TCP Initialize Connection Manager (By Reference).vi" Type="VI" URL="../Connection Manager/TCP/Advanced/TCP Initialize Connection Manager (By Reference).vi"/>
+			</Item>
 			<Item Name="TCP Check Connection.vi" Type="VI" URL="../Connection Manager/TCP/TCP Check Connection.vi"/>
 			<Item Name="TCP Connection Manager.vi" Type="VI" URL="../Connection Manager/TCP/TCP Connection Manager.vi"/>
 			<Item Name="TCP Connection Method.ctl" Type="VI" URL="../Connection Manager/TCP/TCP Connection Method.ctl"/>
