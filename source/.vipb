@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-09-07 20:52:23" Modified_Date="2015-10-05 16:40:46" Creator="cmalato" Comments="" ID="3a68e600b66b878f6b9d5d345cbbe389">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2013-09-07 20:52:23" Modified_Date="2017-01-09 13:51:56" Creator="cmalato" Comments="" ID="82ef4cbfb2d5215dbb1fe2bdc3f2fae4">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_stm</Package_File_Name>
-    <Library_Version>3.0.0.7</Library_Version>
+    <Library_Version>3.1.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\export</Library_Output_Folder>
@@ -27,14 +27,21 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Simple network messaging library</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Simple messaging protocol for network communication</One_Line_Description_Summary>
       <Description>The Simple Messaging Reference Library (STM) can enhance the performance, usability, maintainability and scalability of a distributed system. Unlike raw communications APIs, using formatted packets makes data manipulation more manageable and improves throughput by minimizing the transmission of repetitive data.</Description>
-      <Copyright/>
+      <Copyright>Copyright (c) 2015, 2016, 2017 National Instruments</Copyright>
       <Packager>NI Systems Engineering</Packager>
       <URL>http://zone.ni.com/devzone/cda/tut/p/id/4095</URL>
-      <Release_Notes>This version is not code compatible with the previous 2.x releases of STM.  You will need to manually update any existing code built using the STM library.
+      <Release_Notes>Version 3.x of the STM libraryis not code compatible with the previous 2.x releases of STM.  You will need to manually update any existing code built using the STM library.
 
-Converted to contain API in a LV project library.</Release_Notes>
+v 3.0
+
+- Converted to contain API in a LV project library.
+
+v 3.1
+
+- Added Connection Manager By Reference VIs (..\STM\Connection Manager\TCP\Advanced)
+- Renamed Generate Error.vi to Generate STM Error.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -173,19 +180,19 @@ Converted to contain API in a LV project library.</Release_Notes>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
-      <Text_to_Add>   Copyright 2015 National Instruments Corporation
+      <Text_to_Add>
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+Copyright 2015, 2016, 2017  National Instruments Corporation
 
-       http://www.apache.org/licenses/LICENSE-2.0
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.</Text_to_Add>
+ You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.</Text_to_Add>
     </VI_Docs>
     <System_Destinations/>
   </Advanced_Settings>
